@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(240, 136, 136), rgb(241, 241, 128));
+}
+
+img {
+    height: 100px;
+    
+}
+
+.container {
+    background: linear-gradient(to right, rgb(243, 207, 130), rgb(243, 198, 198)) ;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 230px;
+
+}
+
+.people-1, .people-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+
+}
+
+
+input {
+    background: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input-result {
+    width: 500px;
+    height: 50px;
+    border: none;
+}
+
+button {
+    background: linear-gradient(to right, rgb(238, 153, 238), rgb(238, 236, 236));
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+
+input::placeholder {
+    text-align: center;
+}
